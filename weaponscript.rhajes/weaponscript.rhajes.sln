@@ -1,7 +1,11 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2008
 
+Project("{DB0223D0-A216-4677-BF6F-92B757435F32}") = "weaponscript.rhajes", "Assembly-CSharp-firstpass.csproj", "{DE87A30D-4A5C-71E6-5F27-0EE65D9D44E5}"
+EndProject
 Project("{DB0223D0-A216-4677-BF6F-92B757435F32}") = "weaponscript.rhajes", "Assembly-CSharp.csproj", "{D555D812-5544-730A-84DA-DDFB1AA83EAE}"
+EndProject
+Project("{DB0223D0-A216-4677-BF6F-92B757435F32}") = "weaponscript.rhajes", "Assembly-CSharp-Editor.csproj", "{7B6FEC90-7766-022C-ABE4-774193A34EAE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,10 +13,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DE87A30D-4A5C-71E6-5F27-0EE65D9D44E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE87A30D-4A5C-71E6-5F27-0EE65D9D44E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE87A30D-4A5C-71E6-5F27-0EE65D9D44E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE87A30D-4A5C-71E6-5F27-0EE65D9D44E5}.Release|Any CPU.Build.0 = Release|Any CPU
 		{D555D812-5544-730A-84DA-DDFB1AA83EAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D555D812-5544-730A-84DA-DDFB1AA83EAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D555D812-5544-730A-84DA-DDFB1AA83EAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D555D812-5544-730A-84DA-DDFB1AA83EAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B6FEC90-7766-022C-ABE4-774193A34EAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B6FEC90-7766-022C-ABE4-774193A34EAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B6FEC90-7766-022C-ABE4-774193A34EAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B6FEC90-7766-022C-ABE4-774193A34EAE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

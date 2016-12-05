@@ -1,14 +1,13 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/WeaponClass.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/BalaClass.cs">
     <Files>
-      <File FileName="Assets/WeaponClass.cs" Line="96" Column="30" />
+      <File FileName="Assets/WeaponClass.cs" Line="568" Column="1" />
+      <File FileName="Assets/BalaClass.cs" Line="21" Column="3" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/JuanCerda/Documents/Mis Proyectos/Rhajes/weaponscript.rhajes/Assets/WeaponClass.cs" line="255" column="1" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

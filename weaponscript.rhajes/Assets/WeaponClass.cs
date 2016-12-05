@@ -39,8 +39,17 @@ public class WeaponClass : MonoBehaviour {
 		}
 		#endregion
 
+		if(DebugArma.RecargarCartuchos)
+		{
+			preferenciasArma.RecargarTodosCartuchos();
+			DebugArma.RecargarCartuchos = false;
+		}
+
+
+
 		//Recibe la solicitud del usuario de recargar el arma
 		RecargarArma();
+
 	}
 
 
@@ -557,6 +566,7 @@ public class WeaponClass : MonoBehaviour {
 		public void RecargarTodosCartuchos()
 		{
 			i_cartuchosRestantes = MaximoCartuchos;
+			i_parqueRestante = i_cartuchosRestantes * BalasRecamara;
 		}
 
 		public void RecargarCartuchos(int Cartuchos)
